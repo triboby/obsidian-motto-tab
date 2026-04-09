@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-motto-tab",
+  "version": "1.0.0",
+  "description": "自定义新标签页插件",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --platform=node --target=node14 --outfile=main.js --external:obsidian",
+    "dev": "esbuild main.ts --bundle --platform=node --target=node14 --outfile=main.js --external:obsidian --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "obsidian": "^1.0.0",
+    "yaml": "^2.3.0"
+  }
+}

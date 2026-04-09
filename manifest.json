@@ -1,0 +1,9 @@
+{
+  "id": "motto-tab",
+  "name": "Motto Tab",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "自定义新标签页，显示问候语和座右铭",
+  "author": "Your Name",
+  "api": "1.0.0"
+}
