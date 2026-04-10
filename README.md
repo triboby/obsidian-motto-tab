@@ -1,4 +1,6 @@
-<img src="./logo.png" alt="Motto Tab" width="200" />
+<p align="center">
+  <img src="./logo.png" alt="Motto Tab" width="200" />
+</p>
 
 # Motto Tab
 
