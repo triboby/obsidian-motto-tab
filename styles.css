@@ -1,0 +1,112 @@
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 容器样式 */
+.motto-tab-container {
+  height: 100%;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* 右上角新建笔记按钮 */
+.motto-new-note-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 10px 20px;
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-normal);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.motto-new-note-btn:hover {
+  background: var(--background-tertiary);
+}
+
+/* 主内容区 */
+.motto-main {
+  text-align: center;
+  padding: 0 20px;
+  margin-top: -20px;
+}
+
+/* 时钟 */
+.motto-clock {
+  font-size: 10rem;
+  font-weight: 300;
+  color: var(--text-normal);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  user-select: none;
+}
+
+/* 问候语 */
+.motto-greeting {
+  margin-top: 16px;
+  font-size: 1.875rem;
+  color: var(--text-normal);
+  letter-spacing: 0.025em;
+  font-weight: 500;
+}
+
+/* 分隔线 */
+.motto-divider {
+  margin: 24px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+  letter-spacing: 0.2em;
+}
+
+/* 底部每日一言 */
+.motto-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 48px;
+  z-index: 30;
+}
+
+.motto-quote {
+  max-width: 42rem;
+  text-align: center;
+}
+
+.motto-quote-text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text-normal);
+  letter-spacing: 0.025em;
+  line-height: 1.625;
+}
+
+.motto-quote-author {
+  margin-top: 12px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-muted);
+}
+
+/* Motto 文字自定义字体 */
+.motto-text {
+  font-family: 'HYWenMing', 'HYWenMingTi', 'PingFang SC', '苹方', sans-serif;
+}
